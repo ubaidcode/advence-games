@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+div.a{
+    width: 120px;
+    height: 110px;
+    border: 5px solid black;
+    background-color: red;
+    margin: 8px;
+    padding: 5px;
+    color: red;
+    
+}
+div.a:active{
+    animation-name: hello;
+    animation-duration: 1s;
+    animation-timing-function: linear; 
+}
+
+@keyframes hello {
+    0% {left: 0%; color: red;}
+    100% { background-color: black;color: white;}
+}
+button:hover{
+    background-color: black;
+    color: white;
+  }
+  body{
+    overflow: hidden;
+  }
+    </style>
+</head>
+<body>
+    <center>
+    <h1 style="text-decoration: underline green; background-color: black; color: white;">You are </h1>
+
+    <h1 style="text-decoration: underline red;">
+        <div class="a"> <br>Excellent</div>
+    <div class="a"> <br>Poor</div>
+    <div class="a"> <br>Bad</div>
+    <div class="a"> <br>Normal</div>
+    <div class="a"> <br>Good</div>
+    </h1>
+    
+</center>
+<div style="position: absolute; bottom: 10px;right: 10px;"><a href="index (10).html" ><button style="width: 100px; height: 100px;">CLICK ME TO  <br>home</button></a></div>
+</body>
+</html>
